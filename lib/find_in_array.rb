@@ -5,6 +5,7 @@ def find_element_index(array, value_to_find)
     if array[count] == value_to_find do
       found = count
     end
+    count += 1
   end
   return found
 end
